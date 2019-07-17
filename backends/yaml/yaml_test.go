@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/qor/i18n"
-	"github.com/qor/i18n/backends/yaml"
+	"github.com/kisrobot/i18n"
+	"github.com/kisrobot/i18n/backends/yaml"
 )
 
 var values = map[string][][]string{
